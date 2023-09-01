@@ -32,7 +32,7 @@ function onTextareaInput(e){
 }
 
 function populateTextarea() {
-    email.value = formData.email;
+    email.value = formData.email || '';
     message.value = formData.message || '';
 }
 
